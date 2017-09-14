@@ -9,8 +9,8 @@
     <script src="TemplateData/UnityProgress.js"></script>
   </head>
   <body class="template">
-    <div class="template-wrap clear">
-      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+    <div class="template-wrap clear" style="width:100%;height:100%;min-height:100%;max-height:100%;;max-width:100%;min-width:100%">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"  style="width:100%;height:100%;min-height:100%;max-height:100%;;max-width:100%;min-width:100%"></canvas>
       <br>
       <div class="logo"></div>
       <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
